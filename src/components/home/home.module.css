@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    height: 98vh;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 1px solid black;
+    /* background-image: url(''),; */
+    /* background-image: linear-gradient(rgba(83, 83, 88, 0.5), rgba(217, 217, 207, 0.5)),
+                  url("../../assets/bestFriend.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+
+.image{
+    width: 80%;
+
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border: 15px solid  #BBC46B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: -0.4px;
+    word-spacing: -0.2px;
+    color: #728239;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.enter{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navlink{
+    color: rgb(61, 58, 58);
+    text-decoration: none;
+}
+
+.unselected{
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+}
